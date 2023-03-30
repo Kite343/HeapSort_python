@@ -1,4 +1,4 @@
-import random
+# import random
 
 
 def heapSort(arr):
@@ -33,11 +33,11 @@ def heapify(arr, index, size):
 # print(array)
 
 # test
-a, b = int(input("введите минимальную длину массива ")), int(input("введите максимальную длину массива "))
-n = int(input("введите количество тастов "))
-for _ in range(n):
-    array = [random.randint(-200, 200) for _ in range(random.randint(a, b))]
-    print(*array)
-    heapSort(array)
-    print(*array)
-    print()
+# a, b = int(input("введите минимальную длину массива ")), int(input("введите максимальную длину массива "))
+# n = int(input("введите количество тастов "))
+# for _ in range(n):
+#     array = [random.randint(-200, 200) for _ in range(random.randint(a, b))]
+#     print(*array)
+#     heapSort(array)
+#     print(*array)
+#     print()
